@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>Fofr Zámečník</title>
+</head>
+<body>
+  <div class="background">
+
+  <nav class="nav" id="nav">
+        <h1 class="logo"><a href="web.html" class="a_logo"><i class="fas fa-key" style="font-size: 30px; color: rgb(255, 255, 255);"></i>Fofr Zamečník</a></h1>
+        <ul class="nav_links">
+            <li class="nav_buttons"><a class="a_active" href="#nav">Domů</a></li>
+            <li class="nav_buttons"><a class="a" href="#sluzby">Služby</a></li>
+            <li class="nav_buttons"><a class="a" href="#onas">O nás</a></li>
+            <li class="nav_buttons"><a class="a" href="#kontakt">Kontakt</a></li>
+          </ul>
+          <div id="openNav">
+            <span style="font-size:30px;cursor:pointer; color: white;" onclick="openNav()">&#9776;</span>
+        </div>
+  </nav>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#nav" style="color: white;">Domů</a>
+    <a href="#sluzby" style="color: white;">Služby</a>
+    <a href="#onas" style="color: white;">O nás</a>
+    <a href="#kontakt" style="color: white;">Kontakt</a>
+</div>
+
+    <div class="image_text">
+    <p class="p1">ZÁMEČNICKÁ POHOTOVOST <strong style="color: rgb(255, 255, 255);">PRAHA</strong></p>
+    <p class="p2">Otevření zabouchnutých dveří bez poškození</p> 
+    <p class="p3">Příjezd do 20 minut</p> 
+    <button class="button_cislo"><i style="font-size:20px; padding-right: 5px;" class="fa">&#xf095;</i><a href="+420732332481" style="color: white; text-decoration: none;">732 332 481</a></button>
+    </div>  
+    <div style=" padding: 0 20%; margin-top: 5%;">
+    <p style="text-align: center;"><a href="#sluzby" style="font-size: 100px; text-decoration: none; color: rgb(168, 168, 168);">&#x2304; </a></p>
+    </div>
+  </div>
+
+  <div id="sluzby" class="div_sluzby" style="margin-left: 19%; margin-right: 19%; ">
+    <p class="p4" style="font-size: 3vw;">Naše služby</p>
+    <div style="display: flex; gap: 20px; justify-content: center;">
+
+    <div class="card_all" style="max-height: 490px; margin-top: 40px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+        <img class="card_img" src="Obrázek3.png" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+        <div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+          <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Otevření dveří</p>
+          <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">Pokud se nemůžete dostat do svého domu tak jste tady správně, my Vám pomůžeme
+            Poskytujeme komplexní zámečnické služby, otevírání všech typů zabouchnutých i zamčených dveří. Výměny všech typů zámků, od vložek s základním stupněm bezpečnosti po vložky s nejvyšším stupněm bezpečnosti</p>
+          </div>  
+    </div>
+    <div class="card_all" style="max-height: 490px; margin-top: 40px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+      <img class="card_img" src="Obrázek5.png" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+      <div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+        <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Zabezpečení</p>
+        <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">Kompletní zabezpečení Vašeho domova/obchodních prostor. Pomůžeme Vám vybrat správné zabezpečení, tak aby jste se cítily bezpečně a to bez pochybů</p>
+        </div>  
+  </div>
+  <div class="card_all" style="max-height: 490px; margin-top: 40px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+    <img class="card_img" src="Obrázek66.png" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+    <div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+      <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Výměna všech typů zámků</p>
+      <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">Naše zámečnici dokážou vyměnit nebo namontovat  jakýkoliv zámek nebo vložku,  všech značek a bezpečnostních tříd. Výměna vložky zámku je pro nás rutinní záležitostí. Volejte kdykoliv – náš zámečník Vám ZDARMA poradí s výběrem zámku nebo vložky. NONSTOP pohotovost Praha</p>
+      </div>  
+</div>
+<div class="card_all" style="max-height: 490px; margin-top: 40px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+  <img class="card_img" src="Obrázek7.jpg" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+  <div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+    <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Oprava dveří po násilném vloupání</p>
+    <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">Jestli jste se staly obětí trestného činu, nebo jiného násilného vniknutí, vaše dveře a zámky dáme do pořádku. Kvalitně a spolehlivě, to jsou naše hesla, kterými se naši zámečníci od počátku řídí. Pro oběti trestného činu máme slevu 20%.</p>
+    </div>  
+</div>
+</div>  
+<div style="display: flex; gap: 20px; justify-content: center;">
+
+  <div class="card_all" style="max-height: 490px; margin-top: 50px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+      <img class="card_img" src="Obrázek8.png" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+      <div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+        <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Otevírání trezorových zámků</p>
+        <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">S otevíráním trezorových zámků máme bohaté zkušenosti, a proto si s otevřením trezoru hravě poradíme</p>
+        </div>  
+  </div>
+  <div class="card_all" style="max-height: 490px; margin-top: 50px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+    <img class="card_img" src="Obrázek9.png" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+    <div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+      <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Montáž všech typů kování</p>
+      <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">Montáž kování je naší každodenní rutinou, a proto je pro nás montáž kování všech druhů hračka. Montáž Vám provedeme rychle a kvalitně</p>
+      </div>  
+</div>
+<div class="card_all" style="max-height: 490px; margin-top: 50px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+  <img class="card_img" src="Obrázek10.jpg" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+  <div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+    <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Zlomený klíč v zámku</p>
+    <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">Zlomený klíč v zámku pro nás není žádná potíž. Klíč přijedeme ze zámku vyjmout. Proces trvá většinou jen krátkou chvíli a to kvůli zkušenostem které naší zámečníci mají. Zlomený klíč v zámku se stává dnes a denně. Zvládneme vyjmout veškeré typy klíčů, z různých typů vložek</p>
+    </div>  
+</div>
+<div class="card_all" style="max-height: 490px; margin-top: 50px; border-radius: 5px; max-width: 250px; border: none; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);">
+<img class="card_img" src="Obrázek11.jpg" alt="" style="border-top-left-radius: 5px; border-top-right-radius: 5px; " width="250px" height="250px">
+<div class="div_jmeno" style="padding-left: 20px; padding-right: 20px;">
+  <p class="nazev" style="font-size: 25px; text-align: center; margin-top: 15px;">Otevření automobilu</p>
+  <p class="text" style="font-size: 13px; color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 10px;">K otevírání automobilů používáme ty nejmodernější nástroje a proto vám jakékoliv vozidlo otevřeme bez poškození</p>
+  </div>  
+</div>
+</div> 
+  </div>
+  <div style="justify-content: center; align-items: center;display: flex;  margin-top: 0px;">
+    <button class="button_cislo" style="margin-top: 30px;"><i style="font-size:20px; padding-right: 5px;" class="fa">&#xf095;</i><a href="+420732332481" style="color: white; text-decoration: none;">732 332 481</a></button>  
+  </div>
+  <br>
+  <br>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+  <script>
+         function openNav() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("mySidebar").style.height = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+
+        // Function to check screen width when sidebar is open
+        function checkScreenWidth() {
+            var screenWidth = window.innerWidth;
+            if (screenWidth > 900) {
+                closeNav();
+            }
+        }
+
+        window.addEventListener('resize', checkScreenWidth);
+  </script>
+
+</body>
+</html>
